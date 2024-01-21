@@ -5,11 +5,5 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<div>
-  @for (item of item$ | async; track $index) {
-
-      <pre><code>{{ item |json }}</code></pre>
-
-  }
-</div>
+<router-outlet></router-outlet>
 
