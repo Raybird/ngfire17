@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "chain-vision": {
+      "hosting": {
+        "angular": [
+          "chain-admin"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "chain-vision"
+  }
+}

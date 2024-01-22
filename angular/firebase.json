@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "angular",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "asia-east1"
+      }
+    }
+  ]
+}
